@@ -12,14 +12,23 @@ let ticketPrice = (kmTravel * oneKmPrice)
 
 console.log(kmTravel , age , ticketPrice)
 
+
+//se l'età è minore di 18
 if ( age < 18 ) {
     ticketPrice = (ticketPrice) * 0.8
     console.log(ticketPrice)
 }
 
+//se l'età è maggiore di 65
 if ( age > 65 ) {
     ticketPrice = (ticketPrice) * 0.6
     console.log(ticketPrice)
 }
+
+const ticket_price = document.getElementById('ticket_price')
+
+console.dir(ticket_price)
+
+ticket_price.innerHTML = 'il prezzo del biglietto è di: €' + ticketPrice
 
 
