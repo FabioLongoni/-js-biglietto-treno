@@ -31,6 +31,6 @@ const ticket_price = document.getElementById('ticket_price')
 
 console.dir(ticket_price)
 
-ticket_price.innerHTML = 'il prezzo del biglietto è di: €' + ticketPrice
+ticket_price.innerHTML = 'il prezzo del biglietto è di: ' + ticketPrice
 
 
