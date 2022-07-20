@@ -3,3 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-image: url(https://siviaggia.it/wp-content/uploads/sites/2/2020/05/viaggiare-treno-nuove-regole-fase-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 25px;
+}
+
+@media all and (max-width:1000px) {
+    .container {
+        flex-direction: column;
+    }
+}
